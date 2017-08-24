@@ -1,0 +1,41 @@
+{
+  "name": "spreada-ja",
+  "version": "0.0.1",
+  "description": "ES6 Spreading Activation Network Algorithm library",
+  "main": "lib/spreada.min.js",
+  "scripts": {
+    "build": "WEBPACK_ENV=build webpack",
+    "dev": "WEBPACK_ENV=dev webpack -w",
+    "test": "mocha --compilers js:babel-core/register --colors ./test/*.test.js",
+    "debug-test": "mocha --inspect-brk --compilers js:babel-core/register --colors ./test/*.test.js"
+  },
+  "author": "Florian Marienwald",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chai": "^4.1.1",
+    "eslint": "^4.5.0",
+    "eslint-loader": "^1.9.0",
+    "mocha": "^3.5.0",
+    "webpack": "^3.5.5"
+  },
+  "bugs": {
+    "url": "localhost"
+  },
+  "homepage": "localhost",
+  "keywords": [
+    "ES6"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+localhost"
+  },
+  "dependencies": {
+    "grapha": "^0.1.5"
+  }
+}
