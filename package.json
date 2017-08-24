@@ -1,6 +1,6 @@
 {
-  "name": "spreada-ja",
-  "version": "0.0.1",
+  "name": "spreada-js",
+  "version": "0.0.2",
   "description": "ES6 Spreading Activation Network Algorithm library",
   "main": "lib/spreada.min.js",
   "scripts": {
